@@ -17,7 +17,7 @@
         <setHeader headerName="CamelNetWeaverCommand">
             <simple>in.body</simple>
         </setHeader>
-        <to uri="sap-netweaver:https://sapes1.sapdevcenter.com/sap/opu/odata/IWFND/RMTSAMPLEFLIGHT/?username=P1940066098&amp;password=testpassword&amp;json=false"/>
+        <to uri="sap-netweaver:https://sapes1.sapdevcenter.com/sap/opu/odata/IWFND/RMTSAMPLEFLIGHT/?username=USERNAME&amp;password=PASSWORD&amp;json=false"/>
         <to uri="log:response"/>
        
     </route>
